@@ -64,4 +64,5 @@ int main(int argc, char *argv[])
 {
   QCoreApplication a(argc, argv);
   InjectIntoExistingProcesses(LR"(D:\Qt\QtProjects\build-HookAPI-Desktop_Qt_6_2_0_MinGW_64_bit-Debug\debug\HookAPI.dll)");
+  return a.exec();
 }
